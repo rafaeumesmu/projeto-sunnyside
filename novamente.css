@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(ftos/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+
+}
+nav h1{
+    width: 90%;
+    color:white;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 58px;
+}
+
+nav button{
+    background-color: white;
+    color: black;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.butoes{
+    flex: 1;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.butoes ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.box{
+    width: 50%;
+    height: 500px;
+    position: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.txt-box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+}
+
+main img{
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+main img{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box h1{
+    font-size: 45px;
+    color: rgb(12, 7, 7);
+
+}
+
+.box p{
+    font-size: 14px;
+    color: black;
+}
+
+.box a{
+    color: black;
+    width:100%;
+}
+.box-1{
+    background-image: url(ftos/image-graphic-design.jpg);
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    background-size: cover;
+    
+}
+.box-2{
+    background-image: url(ftos/image-photography.jpg);
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    background-size: cover;
+}
+
+.legenda{
+    position: relative;
+    text-align: center;
+    position: center;
+    top: 300px;
+    width: 300px;
+    
+}
+
+.cliente-testimonials{
+    margin-top: 100px;
+    text-align: center;
+    color:rgb(206, 202, 202);
+    font-size: 20px;
+    width: 100vw;
+}
+.clientes img{
+    clip-path: circle(50% at 50% 50%);
+    width: 80px;
+    height: 80px;
+}
+.clientes{
+    display: flex;    
+    flex-direction:wrap;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+.text-clients{
+    font-size: 12px;
+}
+
+.img-clientes{
+    width: 300px;
+}
+
+.imsg{
+    display: flex;    
+    flex-direction: wrap;
+    position: relative;
+    margin-top: 100px;
+    align-items: center;
+    
+}
+.imsg img{
+    width: 25%;
+    height: 100%;
+}
+.roda-pe{
+    display: flex;
+    background-color: rgb(118, 219, 186);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 220px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sunnyside{
+    color: rgb(44, 77, 66);
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+}
+.xx{
+    color: rgb(61, 129, 107);
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+.roda-pe img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.buttons-finais{
+    cursor: pointer;
+    display: flex;
+    position:relative;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 10%;
+}
+.icons img{
+    justify-content: space-between;
+}
